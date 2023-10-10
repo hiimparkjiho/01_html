@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <title>Page Title</title>
-    <link rel='stylesheet' type='text/css' href='test.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃 분할</title>
+    <style type="text/css">
+        a:link { color: red; text-decoration: none;}
+        a:visited { color: black; text-decoration: none;}
+        a:hover { color: black; text-decoration: underline;}
+    </style>
+       
 </head>
 <body>
-    <h1 id="introduce">자기 소개</h1>
-    <span>안녕하세요, 개발자를 희망하는 박지호입니다.</span>
-    <span>1998.02.25 / jiho2689@gmail.com</span>
-    <br>
-
-    <span><img src="./github.png" alt="개발자 사진" width="70px" height="60px"><a href="https://github.com/hiimparkjiho">https://github.com/hiimparkjiho</a></span><br>
-
-    <p id="language">공부하고 싶은 언어</p> <br>
-    <img src="./JavaLogo.png" alt="자바 로고" width="30px" height="30px">
-    <img src="./JavascriptLogo.png" alt="자바스크립트 로고" width="30px" height="30px">
-    <img src="./SpringLogo.png" alt="스프링 로고" width="30px" height="30px">
-    <img src="./MySQL.png" alt="DB 로고" width="30px" height="30px">
-    <img src="./cat.jpg" alt="고양이 사진" width="30px" height="30px">
+    <header style="background-color: red;
+        height: 200px;
+        border: 1px solid black;">
+        <h1>자기소개</h1>
+        <span>안녕하세요, 개발자를 희망하는 박지호입니다.</span><br>
+        <span>1998.02.25 / jiho2689@gmail.com</span><br>
+        <img src="../01_html/github.png" alt="깃허브 로고" title="깃허브 로고" width="30px" height="30px">
+        <a href="https://github.com/hiimparkjiho">https://github.com/hiimparkjiho</a>
+    </header>
+    <nav style="background-color: purple;
+        height: 150px;">
+        <h3>하고 싶은 공부들</h3>
+        <a href="https://www.java.com/ko/"><img src="../01_html/JavaLogo.png" alt="자바 로고" title="자바 로고" width="50px" height="50px"></a>
+        <img src="../01_html/JavascriptLogo.png" alt="자바스크립트 로고" title="자바스크립트 로고" width="50px" height="50px">
+       <a href="https://spring.io/"><img src="../01_html/SpringLogo.png" alt="스프링 로고" title="스프링 로고" width="50px" height="50px"></a>
+        <a href="https://www.mysql.com/"><img src="../01_html/MySQL.png" alt="DB 로고" title="DB 로고" width="50px" height="50px"></a>
+    </nav>
+    <main style="background-color: yellow;
+        height: 600px;">
+        <h2>1) 개발자가 되고 싶은 이유</h2><br>
+        <span>웹 사이트를 직접 설계하고 만드는 것에 흥미를 느끼고 언어를 공부하는 것이 멋있어 보여서 개발자를 희망하게 되었습니다.</span>
+        <aside>
+        </aside>
+        <article></article>
+        <section></section>
+    </main>
+    <footer style="background-color: grey;
+        height: 150px;">footer
+    </footer>
 </body>
 </html>
