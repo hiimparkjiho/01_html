@@ -4,42 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>레이아웃 분할</title>
-    <style type="text/css">
-        a:link { color: red; text-decoration: none;}
-        a:visited { color: black; text-decoration: none;}
-        a:hover { color: black; text-decoration: underline;}
-    </style>
-       
+    <link rel="stylesheet" href="readme.css">
 </head>
 <body>
-    <header style="background-color: red;
-        height: 190px;
-        border: 1px solid black;">
-        <h1>자기소개</h1>
-        <span>안녕하세요, 개발자를 희망하는 박지호입니다.</span><br>
-        <span>1998.02.25 / jiho2689@gmail.com</span><br><br>
-        <img src="../01_html/github.png" alt="깃허브 로고" title="깃허브 로고" width="30px" height="30px">
-        <a href="https://github.com/hiimparkjiho">https://github.com/hiimparkjiho</a>
+    <header id="header">
+        <div class="leftHeader">
+            <h1 class="introduce">자기소개</h1>
+            <p class="introduce">안녕하세요, 개발자를 희망하는 박지호입니다.</p>
+            <p class="introduce">1998.02.25 / jiho2689@gmail.com</p>
+            <p class="introduce"><img src="../01_html/github.png" alt="깃허브 로고" title="깃허브 로고" width="30px" height="30px"><a href="https://github.com/hiimparkjiho" class="gitLink">https://github.com/hiimparkjiho</a></p>
+        </div>
+        <div class="rightHeader">
+            <img src="../01_html/developer.jpg" alt="개발자 사진" title="개발자 사진" class="developerPicture">
+        </div>
     </header>
-    <nav style="background-color: purple;
-        height: 150px;">
-        <h3>하고 싶은 공부들</h3>
-        <a href="https://www.java.com/ko/"><img src="../01_html/JavaLogo.png" alt="자바 로고" title="자바 로고" width="50px" height="50px"></a>
-        <img src="../01_html/JavascriptLogo.png" alt="자바스크립트 로고" title="자바스크립트 로고" width="50px" height="50px">
-       <a href="https://spring.io/"><img src="../01_html/SpringLogo.png" alt="스프링 로고" title="스프링 로고" width="50px" height="50px"></a>
-        <a href="https://www.mysql.com/"><img src="../01_html/MySQL.png" alt="DB 로고" title="DB 로고" width="50px" height="50px"></a>
-    </nav>
-    <main style="background-color: yellow;
-        height: 600px;">
-        <h2>1) 개발자가 되고 싶은 이유</h2><br>
-        <span>웹 사이트를 직접 설계하고 만드는 것에 흥미를 느끼고 언어를 공부하는 것이 멋있어 보여서 개발자를 희망하게 되었습니다.</span>
-        <aside>
-        </aside>
-        <article></article>
-        <section></section>
+
+    <main class="content">
+        <div class="study">
+            <h2 class="studyTitle"><img src="../01_html/studyLogo.png" alt="공부로고" width="50px" height="50px" class="studyLogo">하고 싶은 공부</h2>
+            <h3 class="studyTitle"><img src="../01_html/computerLogo.jpg" alt="컴퓨터 로고" title="컴퓨터 로고" width="50px" height="50px" class="studyLogo"/>Back-end</h3>
+            <div class="pictures">
+                <img src="../01_html/JavaLogo.png" alt="자바 로고" title="자바 로고" width="100px" height="70px">
+                <img src="../01_html/MySQL.png" alt="DB 로고" title="DB 로고" width="100px" height="70px">
+                <img src="../01_html/SpringLogo.png" alt="스프링 로고" title="스프링 로고" width="100px" height="70px">
+                
+            </div>
+            <h3 class="studyTitle"><img src="../01_html/computerLogo.jpg" alt="컴퓨터 로고" title="컴퓨터 로고" width="50px" height="50px" class="studyLogo"/>Front-end</h3>
+            <div class="pictures">
+                <img src="../01_html/reactLogo.png" alt="리액트 로고" title="리액트 로고" width="100px" height="70px">
+                <img src="../01_html/htmlLogo.png" alt="HTML 로고" title="HTML 로고" width="100px" height="70px">
+                <img src="../01_html/JavascriptLogo.png" alt="자바스크립트 로고" title="자바스크립트 로고" width="100px" height="70px">
+            </div>
+        </div>
+
+        <div class="reason">
+            <h2 class="introduce">1)개발자를 희망하는 이유</h2>
+            <p class="introduce">웹 사이트를 직접 설계하고 만드는 것에 흥미를 느끼고 언어를 공부하는 게 멋있어 보여서 개발자를 희망하게 되었습니다.</p>
+            <h2 class="introduce">2)목표</h2>
+            <p class="introduce">열심히 하겠습니다</p>
+        </div>
     </main>
-    <footer style="background-color: grey;
-        height: 150px;">footer
-    </footer>
+
+    <!-- <footer>
+        나머지 내용
+    </footer> -->
 </body>
 </html>

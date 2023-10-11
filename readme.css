@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header{
+    display: flex;
+    height: 200px;
+}
+
+.leftHeader{
+    width: 70%;
+}
+
+.rightHeader{
+    height: 150px;
+    width: 30%;
+}
+
+.developerPicture{
+    width: 100%;
+    height: 200px;
+}
+
+.introduce{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.content{
+    height: 1000px;
+}
+
+.study{
+    margin-top: 25px;
+    border: 1px solid black;
+    border-color: black;
+    height: 430px;
+}
+
+.studyList{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pictures{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.reason{
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 35px;
+}
+
+.gitLink{
+    margin-left: 10px;
+}
