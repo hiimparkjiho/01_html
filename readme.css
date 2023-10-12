@@ -49,7 +49,7 @@ a {
 
 .pictures{
     margin-top: 35px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .reason{
@@ -61,3 +61,14 @@ a {
 .gitLink{
     margin-left: 10px;
 }
+
+.picBox{
+    margin-top: 10px;
+    display: flex;
+}
+
+.studyTitle{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
