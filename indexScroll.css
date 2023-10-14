@@ -6,9 +6,25 @@
     scroll-snap-type: y mandatory;
 }
 
+.content{
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.mainView{
+    color: #4e5a56;
+    width:100%; 
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
 .list{
     width:100%; 
-    height:100vh;
+    height:10vh;
     display: flex;
     justify-content: center;
     align-items: center;
