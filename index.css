@@ -181,14 +181,5 @@ h1 {
     align-items: center;
 }
 
-/* .contact_img:hover{
-    display: none;
-} */
 
-.githubGif{
-    display: none;
-}
 
-.githubGif:hover{
-    display: block;
-}
