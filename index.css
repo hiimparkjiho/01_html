@@ -72,6 +72,11 @@ h3 {
     border: 1px solid rgb(255, 255, 255, 0.5);
 }
 
+.mainView{
+    background-color:bisque;
+    height: 500px;
+}
+
 .profile img {
     border-radius: 30%;
 }
@@ -114,6 +119,10 @@ h1 {
 }
 
 /* page 4 */
+
+.content{
+    background-color: cadetblue;
+}
 
 .four {
     text-align: center;
@@ -170,4 +179,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* .contact_img:hover{
+    display: none;
+} */
+
+.githubGif{
+    display: none;
+}
+
+.githubGif:hover{
+    display: block;
 }
